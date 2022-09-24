@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Code Mirror</title>
+        <script src="codemirro/lib/codemirror.js"></script>
+        <link href="codemirror/lib/codemirror.css" rel="stylesheet"/>
+        <script src="codemirror/mode/xml.js"></script>
+    </head>
+    <body>
+        <textarea id="editor"><p>I am a paragraph</p></textarea>
+        <script>
+            var editor = CodeMirror.fromtTextArea
+            (document.getElementById('editor'));
+        </script>
+    </body>
+</html>
